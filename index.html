@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .hero {
+            height: 90vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static.vecteezy.com/system/resources/thumbnails/053/044/917/small_2x/colorful-shopping-bags-and-a-shopping-cart-on-a-blue-background-photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .offer {
+            background-color: rgb(22, 130, 145);
+            padding: 60px 0;
+            color: white;
+
+        }
+
+        footer {
+            background-color: burlywood;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="#"><i class="bi bi-cart-check"></i> Techshop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1 class="display-3 fw-bold">Big sale Is Live.</h1>
+            <p class="lead">Upto 50% Off On All Products</p>
+            <a href="" class="btn btn-outline-danger">Shop Now</a>
+        </div>
+    </section>
+    <!-- Categories -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Shop By Category</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card text-center p-4 shadow">
+                        <i class="bi bi-phone display-3 text-primary"></i>
+                        <h4>Moblies</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4 shadow">
+                        <i class="bi bi-laptop display-3 text-success"></i>
+                        <h4>Laptops</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4 shadow">
+                        <i class="bi bi-watch display-3 text-danger"></i>
+                        <h4>Watches</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        </h2>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">All Products</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card product-card shadow">
+                        <img src="https://images.goodreturns.in/fit-in/768x432/filters:quality(76)/img/2025/07/iphone-15-pro-max600-1753006174.jpg"
+                            alt="" class="card-img-top p-2 ">
+                        <div class="card-body">
+                            <h5>I Phone-15</h5>
+                            <p>₹ 99,999</p>
+                            <button class="btn btn-outline-success">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card shadow">
+                        <img src="https://cdn.mos.cms.futurecdn.net/qGZ9utpgcSwnjFbUKp4yv8-970-80.jpg" alt=""
+                            class="card-img-top p-2 ">
+                        <div class="card-body">
+                            <h5>Macbook Air M4</h5>
+                            <p>₹ 1,09,999</p>
+                            <button class="btn btn-outline-success">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card shadow">
+                        <img src="https://www.apple.com/newsroom/images/2025/09/introducing-apple-watch-ultra-3/article/Apple-Watch-Ultra-3-Hermes-En-Mer-bands-250909_big.jpg.large_2x.jpg"
+                            alt="" class="card-img-top p-2 ">
+                        <div class="card-body">
+                            <h5>Apple Ultra-3 Smart watch</h5>
+                            <p>₹ 89,990</p>
+                            <button class="btn btn-outline-success">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card shadow">
+                        <img src="https://i.gadgets360cdn.com/large/samsung_galaxy_s25_ultra_1737554197996.jpg" alt=""
+                            class="card-img-top p-2 ">
+                        <div class="card-body">
+                            <h5>Samsung S25 Ultra</h5>
+                            <p>₹ 79,999</p>
+                            <button class="btn btn-outline-success">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Offer  -->
+    <section class="offer text-center">
+        <div class="container">
+            <h2 class="display-5">Special Summer Offer</h2>
+            <p class="lead">Get Exyra 25% Discount On First Order</p>
+            <button class="btn btn-outline-light">Claim Offer</button>
+        </div>
+    </section>
+    <!-- Why -->
+    <div class="container">
+        <h2 class="text-center py-5">Why Choose Us ?</h2>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <i class="bi bi-truck fs-1"></i>
+                        <h4>Fast Delievery</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <i class="bi bi-credit-card fs-1"></i>
+                        <h4>Secure Payment</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <i class="bi bi-headset fs-1"></i>
+                        <h4>24/7 Support</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://img.magnific.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1108314-455152.jpg"
+                        alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome To TechShop, Your One-Stop Destination for the latest and most reliable electronic products. 
+                        We bring togather Modern Technologies, Quality Products, And Affordable Prices To Make Your Shopping Experience simple And convient.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="">
+                        <input type="text" name="" id="" placeholder="Enter Your Name.. " class="form-control mb-3">
+                        <input type="email" name="" id="" placeholder="Enter Your Email... " class="form-control mb-3">
+                    </form>
+                    <textarea name="" id="" placeholder="Enter Your Message.... " class="form-control mb-3"></textarea>
+                    <button class="btn btn-outline-primary form-control">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <h4>Techshop</h4>
+            <p>© 2026 All Rights Reserved</p>
+            <div>
+                <i class="bi bi-whatsapp fs-4 me-3 text-success"></i>
+                <i class="bi bi-instagram fs-4 me-3 text-danger"></i>
+                <i class="bi bi-facebook fs-4 me-3 text-primary"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
